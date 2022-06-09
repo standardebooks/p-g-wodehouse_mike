@@ -7,7 +7,6 @@ footer{
 }
 
 [epub|type~="z3998:sender"],
-[epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
@@ -19,14 +18,12 @@ footer{
 
 [epub|type~="z3998:postscript"]{
 	text-align: initial;
+	margin-top: 1em;
 	text-indent: 0;
 }
 
-#chapter-8 footer p:nth-child(3){
-	margin-top: 1em;
-}
-
-.notice{
+/* notice stylying in chapter 35 */
+#chapter-35 blockquote{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 22em;
@@ -35,41 +32,42 @@ footer{
 	padding-right: 1em;
 }
 
-.notice header{
+#chapter-35 blockquote header{
 	font-variant: small-caps;
 	text-align: center;
 }
 
+/* score sheet in chapter 40 */
 table{
 	border-collapse: collapse;
 	font-variant-numeric: tabular-nums;
 	margin: auto;
 }
 
-.scores caption{
-	line-height: 1.5em;
+#chapter-40 blockquote caption{
+	line-height: 1.5;
 }
 
-.scores td + td{
+#chapter-40 blockquote td + td{
 	text-align: right;
 }
 
-.scores abbr[epub|type~="z3998:initialism"]{
+#chapter-40 blockquote abbr[epub|type~="z3998:initialism"]{
 	font-style: italic;
 }
 
-.scores tbody tr:last-child td:first-child{
+#chapter-40 blockquote tbody tr:last-child td:first-child{
 	text-indent: 1em;
 }
 
-.scores tfoot tr:first-child td:first-child{
+#chapter-40 blockquote tfoot tr:first-child td:first-child{
 	text-indent: 4em;
 }
 
-.scores tfoot tr:last-child td{
+#chapter-40 blockquote tfoot tr:last-child td{
 	text-align: center;
 }
 
-.scores tfoot td + td{
+#chapter-40 blockquote tfoot td + td{
 	border-top: 1px solid;
 }
