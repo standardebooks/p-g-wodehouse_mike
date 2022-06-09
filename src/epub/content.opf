@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Mike</dc:title>
 		<meta property="file-as" refines="#title">Mike</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A School Story</dc:title>
+		<meta property="file-as" refines="#subtitle">School Story, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Mike: A School Story</dc:title>
+		<meta property="file-as" refines="#fulltitle">Mike</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Boarding schools -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Schools -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Humorous stories</dc:subject>
