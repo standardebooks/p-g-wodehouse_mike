@@ -21,8 +21,8 @@ footer{
 }
 
 [epub|type~="z3998:postscript"]{
-	text-align: initial;
 	margin-top: 1em;
+	text-align: initial;
 	text-indent: 0;
 }
 
