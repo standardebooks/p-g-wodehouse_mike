@@ -68,10 +68,10 @@ table{
 	text-indent: 4em;
 }
 
-#chapter-40 blockquote tfoot tr:last-child td{
-	text-align: center;
+#chapter-40 blockquote tfoot tr:first-child td + td{
+	border-top: 1px solid;
 }
 
-#chapter-40 blockquote tfoot td + td{
-	border-top: 1px solid;
+#chapter-40 blockquote tfoot tr:last-child td{
+	text-align: center;
 }
