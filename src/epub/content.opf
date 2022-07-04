@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/p-g-wodehouse/mike</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-07-04T23:45:12Z</dc:date>
+		<meta property="dcterms:modified">2022-07-04T23:45:12Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -56,15 +56,15 @@
 		<meta property="group-position" refines="#collection-1">1</meta>
 		<dc:description id="description">A boy’s adventures in public school are filled with cricket, colorful characters, and a great deal of fun at the expense of authoritarian school masters.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Mike Jackson is the youngest son of a family of excellent cricket players and the most promising batsman of them all. At Wrykyn, the public school where his elder brothers attended, his desire to prove himself as a cricketer is challenged by his apathy for studying and penchant for mischief. In the second half of the novel, his poor academics result in his being sent to Sedleigh, where he immediately befriends Psmith, an eccentric monocle-wearing student in a similar situation. Together they navigate the social waters of a school that neither wants to attend.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Mike&lt;/i&gt; was one of &lt;a href="https://standardebooks.org/ebooks/p-g-wodehouse"&gt;P. G. Wodehouse’s&lt;/a&gt; earlier novels, but one of his favorites. In a preface to a later edition, he stated that the school setting allowed Psmith’s “bland clashings with Authority” to truly shine. The cricket scenes are memorable and exciting, but the meat of the story is in Mike and Psmith’s school escapades.&lt;/p&gt;
+			&lt;p&gt;Mike Jackson is the youngest son of a family of excellent cricket players and the most promising batsman of them all. At Wrykyn, the public school his elder brothers once attended, his desire to prove himself as a cricketer is challenged by his apathy for studying and his penchant for mischief. In the second half of the novel, his poor academics result in his being sent to Sedleigh, where he immediately befriends Psmith, an eccentric monocle-wearing student in a similar situation. Together they navigate the social waters of a school that neither one of them wants to attend.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Mike&lt;/i&gt; was one of &lt;a href="https://standardebooks.org/ebooks/p-g-wodehouse"&gt;P. G. Wodehouse’s&lt;/a&gt; earlier novels, and one of his personal favorites. In a preface to a later edition, he stated that the school setting allowed Psmith’s “bland clashings with Authority” to truly shine. The cricket scenes are memorable and exciting, but the meat of the story is in Mike and Psmith’s school escapades.&lt;/p&gt;
 			&lt;p&gt;Mike was originally published in &lt;i&gt;The Captain&lt;/i&gt; magazine in two parts, &lt;i&gt;Jackson Junior&lt;/i&gt; (published in 1953 as &lt;i&gt;Mike at Wrykyn&lt;/i&gt;), and &lt;i&gt;The Lost Lambs&lt;/i&gt; (also published later as &lt;i&gt;Enter Psmith&lt;/i&gt; in 1935 and &lt;i&gt;Mike and Psmith&lt;/i&gt; in 1953).&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/7423</dc:source>
 		<dc:source>https://archive.org/details/mikepublicschool00wodeuoft/</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">108984</meta>
+		<meta property="se:reading-ease.flesch">75.81</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Mike</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/p-g-wodehouse_mike</meta>
 		<dc:creator id="author">P. G. Wodehouse</dc:creator>
@@ -100,6 +100,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
