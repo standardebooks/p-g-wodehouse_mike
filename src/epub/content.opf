@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Mike: A School Story</dc:title>
 		<meta property="file-as" refines="#fulltitle">Mike</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Boarding schools -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Schools -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Humorous stories</dc:subject>
